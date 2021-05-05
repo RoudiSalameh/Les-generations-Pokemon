@@ -1,0 +1,49 @@
+body{
+background-color: #111015; /*couleur de fond*/
+color: white; /*couleur du texte (nom anglais de couleurs, code hexadéciamle ou code RGB*/
+font-family: cursive; /*police d'écriture*/
+font-size:15px; /*taille des lettres*/
+line-height: 20px; /*espace entre 2 lignes de textes*/
+text-align: center; /*changer la position du texte (right, left ou center)*/
+}
+ul {
+text-align: center;
+list-style-position: inside;
+}
+h1{
+font-family: serif;
+font-variant: small-caps; /*transformer les lettres en petites majuscules*/
+letter-spacing: 3px; /*espace entre les lettres*/
+}
+h2{
+font-family: serif;
+letter-spacing: 1px;
+}
+h3{
+font-family: sans-serif;
+letter-spacing: 1px;
+}
+a{
+color: yellow;
+text-decoration: none; /*supprimer le soulignement des liens*/
+}
+a:hover{ /*hover signifie quand on passe la souris sur le lien*/
+color: #c26527;
+}
+div{
+border: solid; /*barrière autour d'un élément*/
+margin: 25px 100px; /*marge extérieur*/
+border-radius: 20px; /*arrondir les bordures des bords*/
+box-shadow: 10px 10px 20px yellow; /*ajouter une ombre à notre élément*/
+}
+iframe{
+padding-bottom: 50px; /*padding: marge intérieur*/
+border-radius: 10px;
+}
+img{
+border-radius: 10px;
+}
+.police{ /*class: prendre un élément spécifique grace à class qui est mis dans le dossier HTML*/
+font-family: serif;
+font-weight: bolder; /*epaisseur des lettres (lighter petit, bolder grand)*/
+}
